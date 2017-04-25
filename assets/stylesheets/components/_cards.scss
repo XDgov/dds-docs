@@ -1,12 +1,53 @@
 .dds-card {
   background-color: $color-white;
-  padding: 1em;
+  box-shadow: 0 2px 2px rgba($color-gray-dark, 0.10);
+  padding-bottom: 1.5rem;
+
+  .dds-card-actions {
+    border-top: 1px solid darken($color-gray-lightest, 10);
+    margin-top: 1rem;
+    padding: 1.5rem 1.5rem 0;
+
+    a {
+      color: $color-gray-dark;
+      font-size: 1.5rem;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 2rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .dds-card-content {
+    @include clearfix;
+    padding: 2rem 1.5rem 0;
+
+    > div {
+      margin-top: 3rem;
+
+      @include media($medium-screen) {
+        margin-top: 0;
+      }
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
 
   .dds-card-title {
-    color: $color-gray-dark;
-    font-size: 0.85em;
+    color: $color-gray;
+    font-size: 1.5rem;
     margin-bottom: 0.75rem;
-    text-decoration: underline;
-    text-transform: uppercase;
   }
 }

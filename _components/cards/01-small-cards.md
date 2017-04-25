@@ -12,35 +12,40 @@ order: 01
 </p>
 <div class="card-examples">
   <div class="dds-card usa-width-one-third">
-    <div class="dds-card-title">
-      Population
-    </div>
-    <div class="dds-stat dds-stat-small">
-      <div class="dds-stat-figure">
-        8,091,275
+    <div class="dds-card-content">
+      <div class="dds-card-title">
+        Population
       </div>
-      <div class="dds-stat-heading">
-        Population Estimate
+      <div class="dds-stat dds-stat-small">
+        <div class="dds-stat-figure">
+          8,091,275
+        </div>
+        <div class="dds-stat-heading">
+          Population Estimate
+        </div>
       </div>
-    </div>
 
-    <div class="dds-stat-source">
-      Source: <a href="#">2015 American Community Survey 1-Year</a>
+      <div class="dds-stat-source">
+        Source: <a href="#">2015 American Community Survey 1-Year</a>
+      </div>
     </div>
   </div>
 
   <div class="dds-card usa-width-one-third">
-    <div class="dds-card-title">
-      Web Traffic
-    </div>
-    <div class="dds-stat dds-stat-small">
-      <div class="dds-stat-figure">
-        1.5M Visitors
+    <div class="dds-card-content">
+      <div class="dds-card-title">
+        Web Traffic
+      </div>
+      <div class="dds-stat dds-stat-small">
+        <div class="dds-stat-figure">
+          1.5M Visitors
+        </div>
+      </div>
+      <div class="dds-area-chart dds-area-chart-minimal" id="dds-area-chart-minimal">
       </div>
     </div>
-
-
-    <div class="dds-area-chart dds-area-chart-minimal" id="dds-area-chart-minimal">
+    <div class="dds-card-actions">
+      <a href="">Learn More</a>
     </div>
   </div>
 </div>
