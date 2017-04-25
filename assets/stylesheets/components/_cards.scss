@@ -1,0 +1,12 @@
+.dds-card {
+  background-color: $color-white;
+  padding: 1em;
+
+  .dds-card-title {
+    color: $color-gray-dark;
+    font-size: 0.85em;
+    margin-bottom: 0.75rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+}

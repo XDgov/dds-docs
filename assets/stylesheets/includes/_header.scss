@@ -1,0 +1,31 @@
+.site-header-navbar {
+  background-color: $color-primary-darkest;
+
+  @include media($nav-width) {
+    display: block;
+    height: 6rem;
+  }
+
+  .usa-logo {
+    
+    @include media($nav-width) {
+      margin-left: 3rem;
+    }
+
+    a {
+      color: $color-white;
+    }
+  }
+
+  .usa-logo-text {
+    @include media($nav-width) {
+      line-height: 6rem;
+    }
+  }
+}
+
+.usa-header {
+  @include media($nav-width) {
+    border-bottom: none;
+  }
+}

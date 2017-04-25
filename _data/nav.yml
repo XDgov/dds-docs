@@ -1,0 +1,8 @@
+primary:
+  - href: /components/
+UI_components:
+  - text: Overview
+    href: /components/
+  - href: /components/cards/
+  - href: /components/charts/
+  - href: /components/tables/

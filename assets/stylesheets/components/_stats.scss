@@ -1,0 +1,46 @@
+.dds-margin-of-error {
+  color: $color-gray;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.dds-stat {
+  color: $color-gray-dark;
+
+  &:not(:first-child) {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.dds-stat-figure {
+  font-weight: bold;
+}
+
+.dds-stat-heading {
+  font-size: 1.65rem;
+}
+
+.dds-stat-large {
+
+  .dds-stat-figure {
+    font-size: 4rem;
+  }
+} 
+
+.dds-stat-small {
+  
+  .dds-stat-figure {
+    font-size: 3rem;
+  }
+}
+
+.dds-stat-source {
+  color: $color-gray-dark;
+  font-size: 1rem;
+  margin-top: 1.3rem;
+}

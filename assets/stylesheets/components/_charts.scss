@@ -1,0 +1,41 @@
+.dds-chart {
+  text {
+    font-family: $font-sans;
+    font-size: 1.2rem;
+  }
+
+  .c3-ygrid {
+    stroke: rgba($color-gray, 0.3);
+    stroke-dasharray: none;
+  }
+
+  .domain {
+    stroke: none;
+  }
+
+  .tick {
+    font-family: $font-sans;
+
+    line {
+      stroke: none;
+    }
+
+    tspan {
+      font-size: 1.2rem; 
+    }
+  }
+}
+
+.dds-widget {
+  background-color: $color-white;
+  padding: 1em;
+}
+
+.dds-graph-title {
+  color: $color-gray;
+  font-family: $font-sans;
+  font-size: 0.9em;
+  font-weight: normal;
+  margin: 0 0 1.5em;
+  text-align: center;
+}
