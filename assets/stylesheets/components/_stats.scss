@@ -17,6 +17,15 @@
   }
 }
 
+.dds-stat-change-negative {
+  color: $color-secondary;
+}
+
+
+.dds-stat-change-positive {
+  color: $color-green-light;
+}
+
 .dds-stat-figure {
   font-weight: bold;
 }
@@ -24,6 +33,7 @@
 .dds-stat-heading {
   color: $color-gray;
   font-size: 1.65rem;
+  margin-top: 0.5rem;
 }
 
 .dds-stat-large {
@@ -42,8 +52,8 @@
 
 .dds-stat-source {
   color: $color-gray-dark;
-  font-size: 1rem;
-  margin-top: 1.3rem;
+  font-size: 1.25rem;
+  margin-top: 2rem;
 
   a {
     text-decoration: none;
