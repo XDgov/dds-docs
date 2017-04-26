@@ -10,9 +10,11 @@ order: 05
   visually via lines - making these charts ideal for displaying time-based data.
 </p>
 <h3>Example</h3>
-<div class="dds-widget">
-  <h4 class="dds-widget-title">Uninsured Rate in Virginia, 2008-2015</h4>
-  <div class="dds-chart dds-line-graph" id="dds-line-graph"></div>
+<div class="dds-card">
+  <div class="dds-card-content">
+    <h4 class="dds-graph-title">Uninsured Rate in Virginia, 2008-2015</h4>
+    <div class="dds-chart dds-line-graph" id="dds-line-graph"></div>
+  </div>
 </div>
 <h3>Code Example</h3>
 <h3>When to Use</h3>

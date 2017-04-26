@@ -11,9 +11,11 @@ order: 04
   dataset.
 </p>
 <h3>Example</h3>
-<div class="dds-widget">
-  <h4 class="dds-widget-title">Uninsured Rate, 2008</h4>
-  <div class="dds-chart dds-donut-chart" id="dds-donut-chart"></div>
+<div class="dds-card">
+  <div class="dds-card-content">
+    <h4 class="dds-graph-title">Uninsured Rate, 2008</h4>
+    <div class="dds-chart dds-donut-chart" id="dds-donut-chart"></div>
+  </div>
 </div>
 <h3>Code Example</h3>
 <h3>When to Use</h3>
