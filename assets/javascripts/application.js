@@ -6,6 +6,7 @@
  -{% include_relative vendor/jquery.min.js %}
  -{% include_relative vendor/uswds.min.js %}
  -{% include_relative vendor/c3.min.js %}
+ -{% include_relative vendor/stickyfill.min.js %}
 
  // Add your JS sripts here
 
