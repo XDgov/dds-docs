@@ -3,6 +3,7 @@ primary:
 UI_components:
   - text: Overview
     href: /components/
+  - href: /components/typography/
   - href: /components/cards/
   - href: /components/charts/
   - href: /components/stats/

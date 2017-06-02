@@ -31,10 +31,17 @@
   padding: 1em;
 }
 
-.dds-graph-title {
-  color: $color-gray;
+.dds-graph-subtitle {
   font-family: $font-sans;
-  font-size: 0.9em;
+  font-size: 1.75rem;
+  font-weight: normal;
+  margin: 0 0 1.5em;
+  text-align: center;
+}
+
+.dds-graph-title {
+  font-family: $font-sans;
+  font-size: 2rem;
   font-weight: normal;
   margin: 0 0 1.5em;
   text-align: center;

@@ -1,0 +1,25 @@
+.typography-examples {
+  background-color: $color-white;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+
+  .dds-axis-label {
+    font-size: 1.2rem;
+  }
+
+  .dds-axis-title {
+    font-size: 1.2rem;
+  }
+
+  .dds-datapoint-label {
+    font-size: 1.4rem;
+  }
+
+  .usa-grid-full {
+    margin-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
